@@ -253,3 +253,46 @@ DELETE FROM Clientes WHERE id_cliente = 1;
 
 -- Eliminar Categorias (id_categoria = 1)
 DELETE FROM Categorias WHERE id_categoria = 1;
+
+-- Inserciones adicionales en Usuarios
+INSERT INTO Usuarios (usuario, contraseña) VALUES
+('miguel99', 'clave123'),
+('luciasm', 'pass456'),
+('andresfelipe', 'felipe789'),
+('valentina2024', 'vale123'),
+('sebas_cf', 'sebastian2024'),
+('vickyjim', 'vickypass'),
+('emilio_os', 'obando99'),
+('dani_zc', 'daniela2024');
+
+-- Inserciones adicionales en Categorias
+INSERT INTO Categorias (nombre_categoria, descripcion_categoria) VALUES
+('Construcción', 'Materiales para construcción general'),
+('Electricidad', 'Materiales y herramientas eléctricas'),
+('Fontanería', 'Tubos, conexiones y accesorios de agua'),
+('Jardinería', 'Herramientas y productos para jardín'),
+('Automotriz', 'Accesorios para vehículos'),
+('Seguridad', 'Equipos de protección personal'),
+('Adhesivos', 'Pegamentos y cintas adhesivas'),
+('Ferretería General', 'Artículos varios de ferretería');
+
+INSERT INTO Clientes (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, celular, direccion, cedula) VALUES
+('Laura', 'Sofía', 'Ramírez', 'Vega', '88881111', 'Calle Los Pinos, Cartago', '2-3456-7890'),
+('Diego', 'Alejandro', 'Castro', 'Mora', '87772222', 'Avenida Sur, Puntarenas', '3-4567-8901'),
+('Valeria', 'Isabel', 'Hernández', 'Cruz', '86663333', 'Barrio Este, Guanacaste', '5-6789-0123'),
+('Gabriel', 'Andrés', 'Vargas', 'Flores', '85554444', 'Calle Central, Limón', '6-7890-1234'),
+('Camila', 'Fernanda', 'Díaz', 'Rojas', '84445555', 'Avenida Oeste, San José', '7-8901-2345');
+
+INSERT INTO Empleados (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, celular, cargo, fecha_contratacion) VALUES
+('Sofía', 'Lucía', 'García', 'Méndez', '87776666', 'Vendedor', '2024-05-01'),
+('Andrés', 'Felipe', 'Torres', 'Ríos', '86667777', 'Cajero', '2024-06-15'),
+('Isabella', 'Paula', 'Morales', 'Cordero', '85558888', 'Asistente', '2024-07-01'),
+('Mateo', 'Sebastián', 'Reyes', 'Navarro', '84449999', 'Bodeguero', '2024-08-10'),
+('Emma', 'Victoria', 'Aguilar', 'Salas', '83331111', 'Contador', '2024-09-01');
+
+INSERT INTO Usuarios (usuario, contraseña) VALUES
+('laura25', 'laura2025'),
+('diego90', 'diego123'),
+('valeria88', 'val2024'),
+('gabriel77', 'gabriel99'),
+('camila66', 'cami2023');
