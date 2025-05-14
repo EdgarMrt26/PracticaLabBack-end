@@ -2,7 +2,6 @@ import { Router } from 'express';
 import {  obtenerClientes, obtenerCliente, registrarCliente, eliminarCliente, actualizarCliente } from '../controllers/clientes.controller.js';
 
 const router = Router();
-//
 // Ruta para obtener todos los clientes
 router.get('/clientes', obtenerClientes);
 
