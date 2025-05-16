@@ -1,5 +1,6 @@
 import {config} from 'dotenv';
 
+
 config();
 
 export const PORT = process.env.PORT || 3001;
@@ -7,7 +8,16 @@ export const DB_HOST = process.env.DB_HOST || 'localhost';
 export const DB_PORT = process.env.DB_PORT || 3306;
 export const DB_USER = process.env.DB_USER || 'root';
 export const DB_PASSWORD = process.env.DB_PASSWORD || '123456';
-export const DB_DATABASE = process.env.DB_DATABASE || 'ferreteria_bd';
+export const DB_DATABASE = process.env.DB_DATABASE || 'ferreteria_selva_bd';
+
+export const PORT2 = process.env.PORT2 || 3001;
+export const DB_HOST2 = process.env.DB_HOST2 || 'localhost';
+export const DB_PORT2 = process.env.DB_PORT2 || 3306;
+export const DB_USER2 = process.env.DB_USER2 || 'root';
+export const DB_PASSWORD2 = process.env.DB_PASSWORD2 || '123456';
+export const DB_DATABASE2 = process.env.DB_DATABASE2 || 'ferreteria_selva_datamart';
+
+
 
 //export const PORT = process.env.PORT;
 //export const DB_HOST = process.env.DB_HOST;
